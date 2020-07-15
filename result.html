@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://pagination.js.org/dist/2.1.5/pagination.min.js">
+    <link rel="stylesheet" type="text/css" href="css/result.css">
+    <script src="./js/main.js"></script>
+	<title>Results</title>
+</head>
+<body>
+
+    <header>
+		<nav class="navbar nav navbar-dark bg-light">
+			<div class="">
+				<div class="navbar__profile">
+					<div class="navbar__profile--image">
+						<img src="img/avatar.jpg" alt="Profile Picture">
+					</div>
+					<div class="navbar__profile--name">
+						Company Name
+					</div>
+				</div>
+			</div>
+		</nav>
+    </header>
+    
+    <main>
+        <div class="result-header">
+            <h2>RESULTS</h2>
+        </div>
+
+        <div class="row">
+            <div class="container table-container">
+                <table class="table" id="table">
+                    <tbody id="table-body">
+                        <tr>
+                            <th>Question No.</th>
+                            <th>Grade</th>
+                            <th>Comment</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+<!-- <script src="./js/jquery.js"></script> -->
+<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

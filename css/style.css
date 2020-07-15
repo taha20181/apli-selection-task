@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+li {
+	cursor: pointer;
+}
+
+.active-grade {
+	background-color: green;
+}
+
+/*--------------------- Header-NavBar ------------------*/
+
+
+header {
+	font-size: 18px;
+}
+
+.navbar {
+	justify-content: flex-end;
+	background-color: aliceblue !important;
+}
+
+.navbar__profile {
+	display: flex;
+}
+
+.navbar__profile--image {
+	margin-right: 20px;
+}
+
+.navbar__profile--image img {
+	height: 70px;
+	border-radius: 50%;
+}
+
+.navbar__profile--name {
+	align-self: center;
+}
+
+
+/* ------------------------------------------------------------- */
+
+/* ------------------------ candidate-profile ----------------- */
+
+.candidate-profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: aliceblue;
+}
+
+.candidate-profile .candidate-profile--image,
+.candidate-profile .candidate-info,
+.candidate-profile .radar-chart {
+	justify-content: center;
+	margin-bottom:;
+}
+
+
+.radar-chart {
+	width: 100%;
+}
+
+/* ------------------------------------------------------------- */
+
+
+/* ------------------------ candidate-performance ----------------- */
+
+.candidate-performance {
+	background-color: aliceblue;
+}
+
+.candidate-performance .pagination {
+	background-color: antiquewhite;
+	height: 100px;
+	width: 100%;
+}
+
+.candidate-performance .grading {
+	background-color: antiquewhite;
+	height: 600px;
+
+}
+
+.candidate-performance .grading .task-video {
+	background-color: ;
+}
+/* ------------------------------------------------------------- */
+
+
+
+/* ------------------------ pagination-section ----------------- */
+
+
+.pagination .pagination-ul {
+	display: flex;list-style: none;
+	justify-content: space-evenly;
+	height: 100%;
+	align-items: center;padding: 0 100px;
+}
+
+
+/* ------------------------ grading-section ----------------- */
+
+.grading .task-video {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.grading .task-video .video-frame {
+	height: 350px;
+}
+
+.grading .task-video .video-frame iframe {
+	height: 100%;
+	width: 100%;
+}
+
+.grading .task-grade {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	padding: 50px;
+}
+
+.grading .task-grade h3{
+	display: flex;
+	justify-content: 
+	center;font-size: 150%;
+	font-weight: 600;
+}
+
+.task-video .comment-bar {
+	width: 100%;
+}
+
+.task-video .comment-bar input {
+	width: 100%;
+	border: none;
+	border-radius: 50px;
+	padding-left: 10px;
+	height: 35px;
+}
+
+.task-video .save-button {
+	align-self: flex-end;
+	height: 35px;
+}
+
+.task-video .save-button input {
+	border: none;
+	border-radius: 50px;
+	height: 100%;
+	padding: 0 8px;
+	background-color: steelblue;
+	color: white;
+}
+
+.task-video .save-button input:hover {
+	border: none;
+	border-radius: 50px;
+	height: 100%;
+	padding: 0 8px;
+	background-color: #28a745 !important;
+	color: white;
+}
+
+.task-grade .grade-ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-evenly;
+}
+
+.grade-values {
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	justify-content: space-evenly;
+	list-style: disclosure-closed;
+	margin: 30px 0 0 0;
+}
+
+.task-grade .grade-values .values-top,
+.task-grade .grade-values .values-bottom {
+	display: flex;
+	justify-content: space-around;
+}
+
+.task-grade .grade-ul .top-li,
+.task-grade .grade-ul .middle-li,
+.task-grade .grade-ul .bottom-li {
+	display: flex;
+	justify-content: space-around;
+}
+
+.task-grade .grade-ul .top-li li,
+.task-grade .grade-ul .middle-li li,
+.task-grade .grade-ul .bottom-li li {
+	background-color: steelblue;
+	width: 50px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.task-grade .grade-ul .top-li li a:link,
+.task-grade .grade-ul .middle-li li a:link,
+.task-grade .grade-ul .bottom-li li a:link {
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+.task-grade .grade-ul .top-li li a:hover,
+.task-grade .grade-ul .middle-li li a:hover,
+.task-grade .grade-ul .bottom-li li a:hover {
+	background-color: #28a745 !important;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+
+.task-grade .grade-ul .top-li li a:visited,
+.task-grade .grade-ul .middle-li li a:visited,
+.task-grade .grade-ul .bottom-li li a:visited {
+	background-color: #28a745 !important;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+
+.pagination {
+	display: flex;
+}
+
+.pagination li {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+	align-self: center;
+}
+
+/* ------------------------------------------------------------- */

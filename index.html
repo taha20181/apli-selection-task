@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://pagination.js.org/dist/2.1.5/pagination.min.js">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Interview</title>
+</head>
+<body>
+
+	<header>
+		<nav class="navbar nav navbar-dark bg-light">
+			<div class="">
+				<div class="navbar__profile">
+					<div class="navbar__profile--image">
+						<img src="img/avatar.jpg" alt="Profile Picture">
+					</div>
+					<div class="navbar__profile--name">
+						Company Name
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+
+
+	<main>
+
+		<section class="evaluation__section">
+
+			<div class="row">
+
+				<div class="col-lg-4 candidate-profile row-container">
+
+					<div class="row candidate-profile--image">
+						<img src="img/avatar.jpg" alt="Profile Picture" style="height: 200px; border-radius: 50%;">
+					</div>
+
+					<div class="row candidate-info">
+						<span class="candidate-name">
+							Candidate Name
+						</span>
+					</div>
+
+					<div class="row radar-chart">
+						<canvas id="performanceChart"></canvas>
+					</div>
+				</div>
+
+				<div class="col-lg-8 candidate-performance">
+
+
+
+
+
+
+
+
+
+					<nav aria-label="Page navigation example">
+						<ul class="pagination">
+						  <li class="page-item">
+							<a class="page-link" id="prev-page" href="#" aria-label="Previous">
+							  <span aria-hidden="true">&laquo;</span>
+							  <span class="sr-only">Previous</span>
+							</a>
+						  </li>
+						  
+						  
+						</ul>
+					  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div class="row grading">
+						<div class="col-lg-6 task-video">
+
+							<div id="video-frame-container">
+								<div class="video-frame">
+									<iframe
+									   src="https://www.youtube.com/embed/tgbNymZ7vqY">
+								   </iframe>
+							   	</div>
+
+							   	<div class="video-frame">
+									<iframe
+										src="https://www.youtube.com/watch?v=pMRO2dl9z3w&t=5s">
+									</iframe>
+								</div>
+
+								<div class="video-frame">
+									<iframe
+										src="https://www.youtube.com/watch?v=pMRO2dl9z3w&t=5s">
+									</iframe>
+								</div>
+
+								<div class="video-frame">
+									<iframe
+									   src="https://www.youtube.com/embed/tgbNymZ7vqY">
+								   </iframe>
+						   		</div>
+
+							   	<div class="video-frame">
+									<iframe
+									   src="https://www.youtube.com/embed/tgbNymZ7vqY">
+						   			</iframe>
+					   			</div>
+							</div>
+
+							<div class="comment-bar">
+								<input type="text" name="comment" placeholder="Comment" class="input-comment">
+							</div>
+
+							<div class="save-button">
+								<input type="submit" name="save" class="input-save">
+							</div>
+
+						</div>
+						<div class="col-lg-6 task-grade">
+							<h3>Grading</h3>
+
+							<ul class="grade-values">
+								<div class="values-top">
+									<li>1: Poor</li>
+									<li>2: Average</li>
+									<li>3: Good</li>
+								</div>
+								<div class="values-bottom">
+									<li>4: Very Good</li>
+									<li>5: Excellent</li>
+								</div>
+							</ul>
+
+							<ul class="grade-ul">
+								<div class="top-li">
+									<li class="grade"><a href="javascript:void(0)" id="grade">1</a></li>
+									<li class="grade"> <a href="javascript:void(0)" id="grade">2</a></li>
+								</div>
+								<div class="middle-li">
+									<li class="grade"> <a href="javascript:void(0)" id="grade">3</a></li>
+									<li class="grade"> <a href="javascript:void(0)" id="grade">4</a></li>
+								</div>
+								<div class="bottom-li">
+									<li class="grade"> <a href="javascript:void(0)" id="grade">5</a></li>
+								</div>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.0-alpha/Chart.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script type="text/javascript" src="./js/jquery.js"></script> 
+<!-- <script type="text/javascript" src="js/main.js"></script>
+ --></body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html> -->
